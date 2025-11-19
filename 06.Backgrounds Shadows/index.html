@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Backgrounds & Shadows</title>
+</head>
+
+<body>
+  <!-- Background Images -->
+  <!-- https://tailwindcss.com/docs/background-image -->
+  <!-- <div
+      class="h-screen w-full bg-blue-500 bg-cover bg-no-repeat bg-center"
+      style="
+        background-image: url('https://images.unsplash.com/photo-1496181133206-80ce9b88a853?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80');
+      "
+    ></div> -->
+
+  <!-- Shadows -->
+  <!-- https://tailwindcss.com/docs/drop-shadow -->
+  <!-- I know we didn't cover flexbox, but it's just for demo purposes -->
+  <div class="flex flex-wrap">
+    <div class="w-[400px] mt-10 ml-4 p-3 shadow-sm">Shadow small</div>
+    <div class="w-[400px] mt-10 ml-4 p-3 shadow-md">Shadow medium</div>
+    <div class="w-[400px] mt-10 ml-4 p-3 shadow-lg">Shadow Large</div>
+    <div class="w-[400px] mt-10 ml-4 p-3 shadow-xl">Shadow Extra Large</div>
+    <div class="w-[400px] mt-10 ml-4 p-3 shadow-2xl">Shadow 2xl</div>
+
+    <!--Inner shadow-->
+    <div class="w-[400px] mt-10 ml-7 p-3 shadow-inner">Inner shadow</div>
+
+    <!-- Shadow Colors -->
+    <div class="w-[400px] mt-10 ml-7 p-3 shadow-lg shadow-red-300">Shadow Colors</div>
+  </div>
+
+
+  <!-- Gradients -->
+  <!-- https://tailwindcss.com/docs/gradient-color-stops -->
+  <div class="h-40 bg-gradient-to-r from-teal-100 to-red-500 m-10 text-center p-40">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas modi quod dolores, magni voluptatem ipsum ut
+    magnam hic. Ipsam excepturi, possimus exercitationem autem modi a, id ullam quaerat nostrum nihil, asperiores
+    aliquam magnam labore nobis. Omnis dolores vero enim nemo?
+  </div>
+
+  <div class="h-40 bg-gradient-to-r from-red-100 via-[crimson]-300 to-red-400 mt-10 text-center p-40">
+    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis amet neque illum aspernatur perspiciatis odio
+    mollitia recusandae labore, aut placeat veritatis, maiores provident blanditiis sapiente similique ducimus explicabo
+    sint at ullam voluptates. Nesciunt, veritatis illo ab error commodi sunt repellendus!
+  </div>
+</body>
+
+</html>
